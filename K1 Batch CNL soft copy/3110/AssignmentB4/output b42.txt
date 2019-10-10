@@ -1,0 +1,40 @@
+mohit@mohit-Inspiron-5558:~$ javac udp_client.java 
+mohit@mohit-Inspiron-5558:~$ java udp_client 
+Enter message to send : 
+Hi
+127.0.0.1 : 7777 - Hiiii
+Enter message to send : 
+hi1 
+127.0.0.1 : 7777 - Hi2
+Enter message to send : 
+Over
+127.0.0.1 : 7777 - Connection terminated!
+mohit@mohit-Inspiron-5558:~$ 
+
+
+
+mohit@mohit-Inspiron-5558:~$ javac udp_client.java 
+mohit@mohit-Inspiron-5558:~$ java udp_client 
+Enter message to send : 
+hello
+127.0.0.1 : 7777 - hey
+Enter message to send : 
+Over
+127.0.0.1 : 7777 - Connection terminated!
+mohit@mohit-Inspiron-5558:~$ 
+
+
+mohit@mohit-Inspiron-5558:~$ javac udp_server.java 
+mohit@mohit-Inspiron-5558:~$ java udp_server 
+Server socket created. Waiting for incoming data...
+127.0.0.1 : 35800 - Hi
+Hiiii
+127.0.0.1 : 41617 - hello
+hey
+127.0.0.1 : 41617 - Over
+127.0.0.1 : 35800 - hi1
+Hi2
+127.0.0.1 : 35800 - Over
+
+
+
